@@ -1,6 +1,6 @@
 import React from "react";
 import CommentForm from "./CommentForm";
-import ReplyIcon from "/images/icon-reply.svg";
+import ReplyIcon from "./assets/images/icon-reply.svg";
 
 export default function CommentItem({
   comment,
@@ -74,7 +74,7 @@ export default function CommentItem({
               onClick={() => onReplyClick(comment.id)}
             >
               <ReplyIcon className="w-4 h-4 text-purple-200 stroke-purple-200 hover:stroke-purple-600" />
-              <span className="text-purple-600 font-medium text-sm">
+              <span className="text-purple-600 font-medium text-sm ">
                 Reply
               </span>
             </button>
