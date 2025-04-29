@@ -1,6 +1,6 @@
 import React from "react";
 import CommentForm from "./CommentForm";
-import ReplyIcon from "./assets/images/icon-reply.svg";
+import ReplyIcon from "../public/assets/images/avatars/icon-reply.svg";
 
 export default function CommentItem({
   comment,
